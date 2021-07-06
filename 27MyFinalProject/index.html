@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--  -->
+    <script src="https://sapui5.hana.ondemand.com/1.34.13/resources/sap-ui-core.js" id="sap-ui-bootstrap"
+        data-sap-ui-resourceroots='{
+                "myApp": "./"
+            }' data-sap-ui-libs="sap.m,sap.ui.table,sap.viz" data-sap-ui-theme="sap_bluecrystal"></script>
+            
+    <link rel="stylesheet" href="css\customStyles.css">
+    <script>
+        var app = new sap.m.App({ initialPage: "idHomePage" });
+
+        var oHome = new sap.ui.view({
+            id: "idHomePage",
+            viewName: "myApp.view.App",
+            type: sap.ui.core.mvc.ViewType.JS
+        });
+
+        var oProducts = new sap.ui.view({
+            id: "idProductsPage",
+            viewName: "myApp.view.products",
+            type: sap.ui.core.mvc.ViewType.JS
+        });
+
+        var oRating = new sap.ui.view({
+            id: "idRatedProductsPage",
+            viewName: "myApp.view.ratedProducts",
+            type: sap.ui.core.mvc.ViewType.JS
+        });
+
+        var oProDetails = new sap.ui.view({
+            id: "idProductDetailsPage",
+            viewName: "myApp.view.productDetails",
+            type: sap.ui.core.mvc.ViewType.JS
+        });
+
+        app.addPage(oHome);
+        app.addPage(oProducts);
+        app.addPage(oRating);
+        app.addPage(oProDetails);
+
+        app.placeAt("content");
+    </script>
+</head>
+
+<body>
+    <div class="sapUiBody">
+        <div id="content"></div>
+    </div>
+</body>
+
+</html>
