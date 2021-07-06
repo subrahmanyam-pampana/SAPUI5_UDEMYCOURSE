@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv='Content-Type' content='text/html;charset=UTF-8' />
+<title>www.ui5cn.com</title>
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+
+<script src="resources/sap-ui-core.js" id="sap-ui-bootstrap"
+	data-sap-ui-libs="sap.m,sap.viz" data-sap-ui-theme="sap_bluecrystal">
+	
+</script>
+<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+<script>
+	sap.ui.localResources("finalproject");
+	var app = new sap.m.App({
+		initialPage : "idhomePage"
+	});
+
+	/*Adding all the pages to the app, this can also be done in components.js file*/
+	app.addPage(sap.ui.view({
+		id : "idhomePage",
+		viewName : "finalproject.homePage",
+		type : sap.ui.core.mvc.ViewType.JS
+	}));
+	app.addPage(sap.ui.view({
+		id : "idSearchProductPage",
+		viewName : "finalproject.searchProductPage",
+		type : sap.ui.core.mvc.ViewType.JS
+	}));
+	app.addPage(sap.ui.view({
+		id : "idProductsAnalyticsPage",
+		viewName : "finalproject.productsAnalyticsPage",
+		type : sap.ui.core.mvc.ViewType.JS
+	}));
+	app.addPage(sap.ui.view({
+		id : "idProductDetailPage",
+		viewName : "finalproject.productDetailPage",
+		type : sap.ui.core.mvc.ViewType.JS
+	}));
+
+	app.placeAt("content");
+</script>
+
+</head>
+<body class="sapUiBody" role="application">
+	<div id="content"></div>
+</body>
+</html>
