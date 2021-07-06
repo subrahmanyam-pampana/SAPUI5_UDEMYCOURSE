@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!--  -->
+    <script src="https://sapui5.hana.ondemand.com/1.34.13/resources/sap-ui-core.js" 
+            id="sap-ui-bootstrap"
+            data-sap-ui-libs="sap.m,sap.ui.layout" data-sap-ui-theme="sap_bluecrystal">
+
+    </script>
+
+    <script>
+      // $.sap.require("sap.ui.layout.form.SimpleForm");
+       var oSimpleForm = new sap.ui.layout.form.SimpleForm("idForm",{
+
+        content:[
+            new sap.m.Label({
+                text:"Simple Form: "
+            }),
+            new sap.m.Button({
+                text:"press me"
+            }),
+            new sap.m.Input({
+                placeholder:"enter your text"
+            }),
+            new sap.m.RatingIndicator({
+                value: 4.8
+            }),
+            new sap.m.TextArea({
+                placeholder:"enter the text here" ,
+                value:"this is my value"
+            }),
+            //  new sap.ui.unified.FileUploader({}),
+       
+            new sap.m.Bar({
+                contentRight: new sap.m.Button({ text: "Right side"})
+            }),
+            
+            new sap.m.VBox({
+                items:[
+                    new sap.m.Button({
+                        text:"Vbox Btn 1"
+                    }),
+                    new sap.m.Button({
+                        text:"Vbox Btn 2"
+                    })
+                ]
+            }),
+
+            new sap.m.VBox({
+                items:[
+                    new sap.m.Button({
+                        text:"Vbox Btn 1"
+                    }),
+                    new sap.m.Button({
+                        text:"Vbox Btn 2"
+                    })
+                ]
+            })
+
+        ]
+       })
+
+       oSimpleForm.placeAt("content");
+
+    </script>
+
+</head>
+
+<body>
+
+    <div id="content"></div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!--  -->
+    <script src="https://sapui5.hana.ondemand.com/1.34.13/resources/sap-ui-core.js" id="sap-ui-bootstrap"
+        data-sap-ui-resourceroots='{
+                "myApp": "./"
+            }' data-sap-ui-libs="sap.m,sap.ui.ux3" data-sap-ui-theme="sap_bluecrystal">
+
+            </script>
+
+    <script>
+        $.sap.require("sap.ui.thirdparty.jqueryui.jquery-ui-core");
+        $.sap.require("sap.ui.thirdparty.jqueryui.jquery-ui-widget");
+        $.sap.require("sap.ui.thirdparty.jqueryui.jquery-ui-mouse");
+        $.sap.require("sap.ui.thirdparty.jqueryui.jquery-ui-draggable");
+
+        $.sap.require("sap.m.MessageBox");
+
+        var shell = new sap.ui.ux3.Shell({
+
+            appTitle: "Inject EEE",
+            showLogoutButton: true,
+            logoutButtonTooltip: "Click to Log Out",
+            showSearchTool: true,
+            showInspectorTool: true,
+            showFeederTool: true,
+            showTools: true,
+            showPane: true,
+            worksetItemSelected: (oEvent) => {
+                debugger;
+                sap.m.MessageToast.show(oEvent.getParameters().key);
+            },
+            worksetItems: [
+                new sap.ui.ux3.NavigationItem({
+                    text: "Home",
+                    key: "Home_key",
+                }),
+                new sap.ui.ux3.NavigationItem({
+                    
+                    text: "Menu1",
+                    key: "Menu_1",
+                    press: (oEvent) => {
+                        sap.m.MessageToast.show("Menu");
+                    }
+                })
+            ],
+            paneBarItems: [
+                    new sap.ui.core.Item({
+                         text:"pane Bar1"
+                    }),
+                    new sap.ui.core.Item({
+                         text:"pane Bar 2"
+                    })
+                ],
+                content:[
+                    new sap.m.Button({text: "myButtom"})
+                ] 
+        }).placeAt("content")
+
+
+
+    </script>
+
+</head>
+
+<body class="sapUiBody">
+
+    <div id="content"></div>
+</body>
+
+</html>

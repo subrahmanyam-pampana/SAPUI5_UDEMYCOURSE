@@ -1,0 +1,14 @@
+.Z_Input {
+  width: 60% !important;
+  padding-left: 20% !important;
+}
+
+.Z_Btn{
+    width: 60% !important;
+    padding-left: 20% !important;
+  }
+
+  .Z_Btn > .sapMBtnDefault {
+      background: blue;
+     
+  }

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src="https://sapui5.hana.ondemand.com/1.34.13/resources/sap-ui-core.js" id="sap-ui-bootstrap"
+        data-sap-ui-libs="sap.m" data-sap-ui-theme="sap_bluecrystal">
+
+        </script>
+
+    <script>
+
+
+        var oData = {
+            Names: [
+                {
+                    Name: "Subarahmanyam",
+                    study: "Engineering"
+                },
+                {
+                    Name: "MAnju",
+                    study: "MAdical"
+                },
+                {
+                    Name: "Pampana",
+                    study: "maths"
+                },
+                {
+                    Name: "Revathi",
+                    study: "science"
+                },
+                {
+                    Name: "Naga",
+                    study: "cricket"
+                },
+
+            ]
+
+        }
+
+        var oModel = new sap.ui.model.json.JSONModel();
+        oModel.setData(oData);
+
+
+        var oList = new sap.m.List({
+            headerText: "Animals",
+        });
+        oList.setModel(oModel);
+
+        oList.bindItems({
+            path: "/Names",
+            template: new sap.m.StandardListItem({
+                title: "{Name}",
+                description: "{study}"
+            })
+        })
+
+
+        var oPage = new sap.m.Page({
+            title: "List page",
+            content: [oList]
+        });
+
+        var oApp = new sap.m.App({
+            pages: [oPage]
+        }).placeAt("content")
+    </script>
+
+</head>
+
+<body>
+
+    <div class="sapUiBody">
+        <div id="content"></div>
+    </div>
+</body>
+
+</html>

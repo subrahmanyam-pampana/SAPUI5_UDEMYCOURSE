@@ -1,0 +1,23 @@
+.myForm {
+  width: 76% !important;
+  padding-left: 27%;
+  padding-top: 5%;
+}
+
+/* .myForm > .sapUiForm {
+    background-color: blueviolet;
+} */
+
+.sapUiRFLContainer{
+    width: 100% !important;
+}
+
+.myVbox{
+    padding-left: 40%;
+
+}
+
+.myHbox{
+    padding-left: 33%;
+
+}

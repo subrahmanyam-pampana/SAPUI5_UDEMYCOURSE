@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src="https://sapui5.hana.ondemand.com/1.34.13/resources/sap-ui-core.js" 
+            id="sap-ui-bootstrap"
+            data-sap-ui-libs="sap.m" data-sap-ui-theme="sap_bluecrystal">
+
+    </script>
+
+    <script>
+        
+/*** steps
+ * 1.create data
+ * 2.create JSON Model
+ * 3.create List and Bind Model to List(not to list Items)
+ * 4.add items to List and pass values model as {/keyName} 
+ * 5.create app and add pages and place at content 
+ * 6.create page and add it to app
+*/
+
+   var oData = {
+       Name: "Subarahmanyam",
+       study: "Engineering"
+   }
+
+//    $.sap.require("sap.ui.model.json.JSONMode");
+   var oModel = new sap.ui.model.json.JSONModel();
+   oModel.setData(oData);
+
+   var oListItem = new sap.m.StandardListItem({
+       title:"{/Name}",
+       description:"{/study}"
+   });
+
+   var oList = new sap.m.List({
+    headerText : "Animals",
+    items:[oListItem]
+   });
+
+   oList.setModel(oModel);
+
+   var oPage = new sap.m.Page({
+       title:"List page",
+       content:[oList]
+   });
+
+   var oApp = new sap.m.App({
+       pages:[oPage]
+   }).placeAt("content")
+    </script>
+
+</head>
+
+<body>
+
+    <div class="sapUiBody">
+        <div id="content"></div>
+    </div>
+</body>
+
+</html>
