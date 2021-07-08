@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SalesOrder>
+	<Sales>
+		<OrderId id="4001" itemNo="1" Desc="Notebook Basic 15" qty="10" delivery="30-5-2020" shipping="NewYork">4001</OrderId>
+	</Sales>
+	<Sales>
+		<OrderId id="4002" itemNo="2" Desc="Notebook Basic 18" qty="20" delivery="27-5-2020" shipping="London">4002</OrderId>
+	</Sales>
+	<Sales>
+		<OrderId id="4003" itemNo="3" Desc="Notebook Basic 20" qty="40" delivery="23-5-2020" shipping="UK">4003</OrderId>
+	</Sales>
+	<Sales>
+		<OrderId id="4004" itemNo="4" Desc="Notebook Basic 25" qty="20" delivery="20-5-2020" shipping="Russia">4004</OrderId>
+	</Sales>
+	<Sales>
+		<OrderId id="4005" itemNo="5" Desc="Notebook Basic 45" qty="20" delivery="19-5-2020" shipping="France">4005</OrderId>
+	</Sales>
+</SalesOrder>
