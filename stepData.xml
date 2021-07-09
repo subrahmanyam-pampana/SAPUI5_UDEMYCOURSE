@@ -1,0 +1,192 @@
+<Rowsets CachedTime="" DateCreated="2021-07-09T09:56:09" EndDate="2021-07-09T09:56:09" StartDate="2021-07-09T08:56:09" Version="15.2 SP3 Patch 0 (Nov 20, 2018)">
+    <Rowset>
+        <Columns>
+            <Column Description="WI_SEQUENCE" MaxRange="1" MinRange="0" Name="WI_SEQUENCE" SQLDataType="2" SourceColumn="WI_SEQUENCE"/>
+            <Column Description="STEP_TYPE" MaxRange="1" MinRange="0" Name="STEP_TYPE" SQLDataType="-9" SourceColumn="STEP_TYPE"/>
+            <Column Description="STEP_NUMBER" MaxRange="1" MinRange="0" Name="STEP_NUMBER" SQLDataType="-9" SourceColumn="STEP_NUMBER"/>
+            <Column Description="TARGET_TORQUE" MaxRange="1" MinRange="0" Name="TARGET_TORQUE" SQLDataType="-9" SourceColumn="TARGET_TORQUE"/>
+            <Column Description="TORQUE_TOLERANCE" MaxRange="1" MinRange="0" Name="TORQUE_TOLERANCE" SQLDataType="-9" SourceColumn="TORQUE_TOLERANCE"/>
+            <Column Description="TARGET_ANGLE" MaxRange="1" MinRange="0" Name="TARGET_ANGLE" SQLDataType="-9" SourceColumn="TARGET_ANGLE"/>
+            <Column Description="ANGLE_TOLERENCE" MaxRange="1" MinRange="0" Name="ANGLE_TOLERENCE" SQLDataType="-9" SourceColumn="ANGLE_TOLERENCE"/>
+            <Column Description="JOB_ID" MaxRange="1" MinRange="0" Name="JOB_ID" SQLDataType="-9" SourceColumn="JOB_ID"/>
+            <Column Description="JOB_TEXT" MaxRange="1" MinRange="0" Name="JOB_TEXT" SQLDataType="-9" SourceColumn="JOB_TEXT"/>
+            <Column Description="TOOL_REFERENCE" MaxRange="1" MinRange="0" Name="TOOL_REFERENCE" SQLDataType="-9" SourceColumn="TOOL_REFERENCE"/>
+            <Column Description="FIXINGS" MaxRange="1" MinRange="0" Name="FIXINGS" SQLDataType="2" SourceColumn="FIXINGS"/>
+            <Column Description="IMAGE_PATH" MaxRange="1" MinRange="0" Name="IMAGE_PATH" SQLDataType="-9" SourceColumn="IMAGE_PATH"/>
+            <Column Description="COORDINATES" MaxRange="1" MinRange="0" Name="COORDINATES" SQLDataType="-9" SourceColumn="COORDINATES"/>
+            <Column Description="IMAGE_REF" MaxRange="1" MinRange="0" Name="IMAGE_REF" SQLDataType="-9" SourceColumn="IMAGE_REF"/>
+            <Column Description="IMG_NAME" MaxRange="1" MinRange="0" Name="IMG_NAME" SQLDataType="-9" SourceColumn="IMG_NAME"/>
+            <Column Description="AUTO_NAVIGATE" MaxRange="1" MinRange="0" Name="AUTO_NAVIGATE" SQLDataType="-9" SourceColumn="AUTO_NAVIGATE"/>
+            <Column Description="CONTEXT_IMAGE_PATH" MaxRange="1" MinRange="0" Name="CONTEXT_IMAGE_PATH" SQLDataType="-9" SourceColumn="CONTEXT_IMAGE_PATH"/>
+            <Column Description="CONTEXT_IMAGE_NAME" MaxRange="1" MinRange="0" Name="CONTEXT_IMAGE_NAME" SQLDataType="-9" SourceColumn="CONTEXT_IMAGE_NAME"/>
+            <Column Description="RELEASABLE" MaxRange="1" MinRange="0" Name="RELEASABLE" SQLDataType="-9" SourceColumn="RELEASABLE"/>
+            <Column Description="TORQUE_UNIT" MaxRange="1" MinRange="0" Name="TORQUE_UNIT" SQLDataType="-9" SourceColumn="TORQUE_UNIT"/>
+            <Column Description="ANGLE_UNIT" MaxRange="1" MinRange="0" Name="ANGLE_UNIT" SQLDataType="-9" SourceColumn="ANGLE_UNIT"/>
+        </Columns>
+        <Row>
+            <WI_SEQUENCE>1</WI_SEQUENCE>
+            <STEP_TYPE>Torque</STEP_TYPE>
+            <STEP_NUMBER>3</STEP_NUMBER>
+            <TARGET_TORQUE>2</TARGET_TORQUE>
+            <TORQUE_TOLERANCE>1</TORQUE_TOLERANCE>
+            <TARGET_ANGLE>NA</TARGET_ANGLE>
+            <ANGLE_TOLERENCE>NA</ANGLE_TOLERENCE>
+            <JOB_ID>4</JOB_ID>
+            <JOB_TEXT>fix the bolts</JOB_TEXT>
+            <TOOL_REFERENCE>Tool1</TOOL_REFERENCE>
+            <FIXINGS>4</FIXINGS>
+            <IMAGE_PATH>https://nlsapcims101.ics-eu-1.asml.com:51000/XMII/CM/ASML_ATT/ATT_Images/00002415-0100/[00002415-0100]_2_2021513134214.png</IMAGE_PATH>
+            <COORDINATES>90,88~343,92~230,105~197,78</COORDINATES>
+            <IMAGE_REF>00002415-0100_1_Torque_3_[00002415-0100]_2_2021513134214</IMAGE_REF>
+            <IMG_NAME>[00002415-0100]_2_2021513134214</IMG_NAME>
+            <AUTO_NAVIGATE>Y</AUTO_NAVIGATE>
+            <CONTEXT_IMAGE_PATH>NA</CONTEXT_IMAGE_PATH>
+            <CONTEXT_IMAGE_NAME>NA</CONTEXT_IMAGE_NAME>
+            <RELEASABLE>Y</RELEASABLE>
+            <TORQUE_UNIT>Nm</TORQUE_UNIT>
+            <ANGLE_UNIT>°</ANGLE_UNIT>
+        </Row>
+        <Row>
+            <WI_SEQUENCE>2</WI_SEQUENCE>
+            <STEP_TYPE>Pick</STEP_TYPE>
+            <STEP_NUMBER>46</STEP_NUMBER>
+            <TARGET_TORQUE>0</TARGET_TORQUE>
+            <TORQUE_TOLERANCE>0</TORQUE_TOLERANCE>
+            <TARGET_ANGLE>0</TARGET_ANGLE>
+            <ANGLE_TOLERENCE>0</ANGLE_TOLERENCE>
+            <JOB_ID>BULB04</JOB_ID>
+            <JOB_TEXT>ok</JOB_TEXT>
+            <TOOL_REFERENCE>PTL</TOOL_REFERENCE>
+            <FIXINGS>0</FIXINGS>
+            <IMAGE_PATH>https://nlsapcims101.ics-eu-1.asml.com:51000/XMII/CM/ASML_ATT/ATT_Images/00002415-0100/[00002415-0100]_8_202161104836.png</IMAGE_PATH>
+            <COORDINATES>---</COORDINATES>
+            <IMAGE_REF>00002415-0100_2_Pick_46_[00002415-0100]_8_202161104836</IMAGE_REF>
+            <IMG_NAME>[00002415-0100]_8_202161104836</IMG_NAME>
+            <AUTO_NAVIGATE>Y</AUTO_NAVIGATE>
+            <CONTEXT_IMAGE_PATH>https://nlsapcims101.ics-eu-1.asml.com:51000/XMII/CM/ASML_ATT/ATT_Images/00002415-0100/[00002415-0100]_8_Ctx_20216110499.png</CONTEXT_IMAGE_PATH>
+            <CONTEXT_IMAGE_NAME>[00002415-0100]_8_Ctx_20216110499</CONTEXT_IMAGE_NAME>
+            <RELEASABLE>Y</RELEASABLE>
+            <TORQUE_UNIT>Nm</TORQUE_UNIT>
+            <ANGLE_UNIT>°</ANGLE_UNIT>
+        </Row>
+        <Row>
+            <WI_SEQUENCE>3</WI_SEQUENCE>
+            <STEP_TYPE>Place</STEP_TYPE>
+            <STEP_NUMBER>5</STEP_NUMBER>
+            <TARGET_TORQUE>0</TARGET_TORQUE>
+            <TORQUE_TOLERANCE>0</TORQUE_TOLERANCE>
+            <TARGET_ANGLE>0</TARGET_ANGLE>
+            <ANGLE_TOLERENCE>0</ANGLE_TOLERENCE>
+            <JOB_ID>---</JOB_ID>
+            <JOB_TEXT>ok</JOB_TEXT>
+            <TOOL_REFERENCE>0</TOOL_REFERENCE>
+            <FIXINGS>0</FIXINGS>
+            <IMAGE_PATH>https://nlsapcims101.ics-eu-1.asml.com:51000/XMII/CM/ASML_ATT/ATT_Images/00002415-0100/[00002415-0100]_54_2021531184444.png</IMAGE_PATH>
+            <COORDINATES>---</COORDINATES>
+            <IMAGE_REF>00002415-0100_3_Place_5_[00002415-0100]_54_2021531184444</IMAGE_REF>
+            <IMG_NAME>[00002415-0100]_54_2021531184444</IMG_NAME>
+            <AUTO_NAVIGATE>Y</AUTO_NAVIGATE>
+            <CONTEXT_IMAGE_PATH>https://nlsapcims101.ics-eu-1.asml.com:51000/XMII/CM/ASML_ATT/ATT_Images/00002415-0100/[00002415-0100]_54_Ctx_2021531184434.png</CONTEXT_IMAGE_PATH>
+            <CONTEXT_IMAGE_NAME>[00002415-0100]_54_Ctx_2021531184434</CONTEXT_IMAGE_NAME>
+            <RELEASABLE>Y</RELEASABLE>
+            <TORQUE_UNIT>Nm</TORQUE_UNIT>
+            <ANGLE_UNIT>°</ANGLE_UNIT>
+        </Row>
+        <Row>
+            <WI_SEQUENCE>4</WI_SEQUENCE>
+            <STEP_TYPE>Apply</STEP_TYPE>
+            <STEP_NUMBER>6</STEP_NUMBER>
+            <TARGET_TORQUE>0</TARGET_TORQUE>
+            <TORQUE_TOLERANCE>0</TORQUE_TOLERANCE>
+            <TARGET_ANGLE>0</TARGET_ANGLE>
+            <ANGLE_TOLERENCE>0</ANGLE_TOLERENCE>
+            <JOB_ID>1</JOB_ID>
+            <JOB_TEXT>Apply Glue and wait for 1 min</JOB_TEXT>
+            <TOOL_REFERENCE>0</TOOL_REFERENCE>
+            <FIXINGS>0</FIXINGS>
+            <IMAGE_PATH>NA</IMAGE_PATH>
+            <COORDINATES>---</COORDINATES>
+            <IMAGE_REF>00002415-0100_4_Apply_6_NA</IMAGE_REF>
+            <IMG_NAME>NA</IMG_NAME>
+            <AUTO_NAVIGATE>Y</AUTO_NAVIGATE>
+            <CONTEXT_IMAGE_PATH>NA</CONTEXT_IMAGE_PATH>
+            <CONTEXT_IMAGE_NAME>NA</CONTEXT_IMAGE_NAME>
+            <RELEASABLE>Y</RELEASABLE>
+            <TORQUE_UNIT>Nm</TORQUE_UNIT>
+            <ANGLE_UNIT>°</ANGLE_UNIT>
+        </Row>
+        <Row>
+            <WI_SEQUENCE>5</WI_SEQUENCE>
+            <STEP_TYPE>Clean</STEP_TYPE>
+            <STEP_NUMBER>90</STEP_NUMBER>
+            <TARGET_TORQUE>0</TARGET_TORQUE>
+            <TORQUE_TOLERANCE>0</TORQUE_TOLERANCE>
+            <TARGET_ANGLE>0</TARGET_ANGLE>
+            <ANGLE_TOLERENCE>0</ANGLE_TOLERENCE>
+            <JOB_ID>---</JOB_ID>
+            <JOB_TEXT>clean</JOB_TEXT>
+            <TOOL_REFERENCE>0</TOOL_REFERENCE>
+            <FIXINGS>0</FIXINGS>
+            <IMAGE_PATH>https://nlsapcims101.ics-eu-1.asml.com:51000/XMII/CM/ASML_ATT/ATT_Images/00002415-0100/[00002415-0100]_90_202167142914.png</IMAGE_PATH>
+            <COORDINATES>---</COORDINATES>
+            <IMAGE_REF>00002415-0100_5_Clean_90_[00002415-0100]_90_202167142914</IMAGE_REF>
+            <IMG_NAME>[00002415-0100]_90_202167142914</IMG_NAME>
+            <AUTO_NAVIGATE>Y</AUTO_NAVIGATE>
+            <CONTEXT_IMAGE_PATH>https://nlsapcims101.ics-eu-1.asml.com:51000/XMII/CM/ASML_ATT/ATT_Images/00002415-0100/[00002415-0100]_90_Ctx_202167142859.png</CONTEXT_IMAGE_PATH>
+            <CONTEXT_IMAGE_NAME>[00002415-0100]_90_Ctx_202167142859</CONTEXT_IMAGE_NAME>
+            <RELEASABLE>Y</RELEASABLE>
+            <TORQUE_UNIT>Nm</TORQUE_UNIT>
+            <ANGLE_UNIT>°</ANGLE_UNIT>
+        </Row>
+        <Row>
+            <WI_SEQUENCE>6</WI_SEQUENCE>
+            <STEP_TYPE>Check</STEP_TYPE>
+            <STEP_NUMBER>10</STEP_NUMBER>
+            <TARGET_TORQUE>0</TARGET_TORQUE>
+            <TORQUE_TOLERANCE>0</TORQUE_TOLERANCE>
+            <TARGET_ANGLE>0</TARGET_ANGLE>
+            <ANGLE_TOLERENCE>0</ANGLE_TOLERENCE>
+            <JOB_ID>---</JOB_ID>
+            <JOB_TEXT>check</JOB_TEXT>
+            <TOOL_REFERENCE>0</TOOL_REFERENCE>
+            <FIXINGS>0</FIXINGS>
+            <IMAGE_PATH>NA</IMAGE_PATH>
+            <COORDINATES>---</COORDINATES>
+            <IMAGE_REF>00002415-0100_6_Check_10_NA</IMAGE_REF>
+            <IMG_NAME>NA</IMG_NAME>
+            <AUTO_NAVIGATE>Y</AUTO_NAVIGATE>
+            <CONTEXT_IMAGE_PATH>NA</CONTEXT_IMAGE_PATH>
+            <CONTEXT_IMAGE_NAME>NA</CONTEXT_IMAGE_NAME>
+            <RELEASABLE>Y</RELEASABLE>
+            <TORQUE_UNIT>Nm</TORQUE_UNIT>
+            <ANGLE_UNIT>°</ANGLE_UNIT>
+        </Row>
+        <Row>
+            <WI_SEQUENCE>7</WI_SEQUENCE>
+            <STEP_TYPE>Adjust</STEP_TYPE>
+            <STEP_NUMBER>15</STEP_NUMBER>
+            <TARGET_TORQUE>0</TARGET_TORQUE>
+            <TORQUE_TOLERANCE>0</TORQUE_TOLERANCE>
+            <TARGET_ANGLE>0</TARGET_ANGLE>
+            <ANGLE_TOLERENCE>0</ANGLE_TOLERENCE>
+            <JOB_ID>---</JOB_ID>
+            <JOB_TEXT>adjust</JOB_TEXT>
+            <TOOL_REFERENCE>0</TOOL_REFERENCE>
+            <FIXINGS>0</FIXINGS>
+            <IMAGE_PATH>https://nlsapcims101.ics-eu-1.asml.com:51000/XMII/CM/ASML_ATT/ATT_Images/00002415-0100/[00002415-0100]_15_20216713526.png</IMAGE_PATH>
+            <COORDINATES>---</COORDINATES>
+            <IMAGE_REF>00002415-0100_7_Adjust_15_[00002415-0100]_15_20216713526</IMAGE_REF>
+            <IMG_NAME>[00002415-0100]_15_20216713526</IMG_NAME>
+            <AUTO_NAVIGATE>Y</AUTO_NAVIGATE>
+            <CONTEXT_IMAGE_PATH>https://nlsapcims101.ics-eu-1.asml.com:51000/XMII/CM/ASML_ATT/ATT_Images/00002415-0100/[00002415-0100]_15_Ctx_2021671353.png</CONTEXT_IMAGE_PATH>
+            <CONTEXT_IMAGE_NAME>[00002415-0100]_15_Ctx_2021671353</CONTEXT_IMAGE_NAME>
+            <RELEASABLE>Y</RELEASABLE>
+            <TORQUE_UNIT>Nm</TORQUE_UNIT>
+            <ANGLE_UNIT>°</ANGLE_UNIT>
+        </Row>
+    </Rowset>
+    <Row>
+<Status>S</Status>
+<Message>Success</Message>
+</Row>
+</Rowsets>
